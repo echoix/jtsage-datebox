@@ -336,7 +336,7 @@ JTSageDateBox.style_dboxRow = function () {
  * @param {string} inTheme Theme for inputs
  * @returns {object} jQuery Object
  */
-JTSageDateBox.style_dboxCtrl = function ( prevBtn, nextBtn, mainCls, label, /* inTheme */ ) {
+JTSageDateBox.style_dboxCtrl = function ( prevBtn, nextBtn, mainCls, label /* inTheme */ ) {
 	
 };
 
