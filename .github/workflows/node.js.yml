@@ -30,3 +30,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: npm run build-builder
+    - run: npm run authors
+    - run: npm run count
+    - run: npm run docs
