@@ -6,7 +6,7 @@ DateBox Sources
 Core:
  * baseObject.js - Base widget object
  * autoInit.js - Auto enhance for data-role on a page
- * widgetBinding.js - Used only in the test enviroment
+ * widgetBinding.js - Used only in the test environment
 
 Libraries:
  * dateEnhance.js - Enhance JavaScript date object

@@ -740,7 +740,7 @@ opts :
 
       The first argument to the function will be an object containing: 
       
-       - __date__ : The JavaScript date object of the current (choosen) date - Always defined, even if meaningless.
+       - __date__ : The JavaScript date object of the current (chosen) date - Always defined, even if meaningless.
        - __initDate__ : The JavaScript date object that holds the widget creation time/date. Always defined.
        - __duration__ : The last entered duration, in seconds for duration modes - undefined if not.
        - __cancelClose__ : [Close only] - If the close action was triggered by a user cancel (true), or by setting the date (false)
@@ -1610,7 +1610,7 @@ opts :
       maxDays = -5
       ```
 
-      This would allow only days that are 5 to 10 days in the past to be choosen.
+      This would allow only days that are 5 to 10 days in the past to be chosen.
     modes   : *modeDate
     cat     : Limits
     default : false
@@ -1631,7 +1631,7 @@ opts :
       maxDays = -5
       ```
 
-      This would allow only days that are 5 to 10 days in the past to be choosen.
+      This would allow only days that are 5 to 10 days in the past to be chosen.
     modes   : *modeDate
     cat     : Limits
     default : false
@@ -1867,7 +1867,7 @@ opts :
 
       The first argument to the function will be an object containing: 
       
-       - __date__ : The JavaScript date object of the current (choosen) date - Always defined, even if meaningless.
+       - __date__ : The JavaScript date object of the current (chosen) date - Always defined, even if meaningless.
        - __initDate__ : The JavaScript date object that holds the widget creation time/date. Always defined.
        - __duration__ : The last entered duration, in seconds for duration modes - undefined if not.
        - __cancelClose__ : [Close only] - If the close action was triggered by a user cancel (true), or by setting the date (false)

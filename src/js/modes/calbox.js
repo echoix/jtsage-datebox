@@ -148,7 +148,7 @@ JTSageDateBox._cal_ThemeDate = function( testDate, dispMonth ) {
 		if ( o.calHighOutOfBounds !== false ) {
 			returnObject.theme = o.theme_cal_OutOfBounds;
 			done = true;
-			// Allow only selected theme if specifly enabled.
+			// Allow only selected theme if specifically enabled.
 			if (
 				o.calSelectedOutOfBounds !== false &&
 				w._ThemeDateCK.selected.call( w, testDate )
@@ -293,8 +293,8 @@ JTSageDateBox._build.calbox = function () {
 			if ( w.theDate.get(2) > 28 ) {
 				w.theDate.setD( 2, 1 ); //Set first of month if over the 28th.
 			}
-			w.theDate.setD( 1, $( "#dbCalPickMonth" ).val() ); // Set choosen month
-			w.theDate.setD( 0, $( "#dbCalPickYear" ).val() ); // Set choosen year
+			w.theDate.setD( 1, $( "#dbCalPickMonth" ).val() ); // Set chosen month
+			w.theDate.setD( 0, $( "#dbCalPickYear" ).val() ); // Set chosen year
 
 			w._t( {
 				method             : "displayChange",

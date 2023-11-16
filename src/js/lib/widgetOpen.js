@@ -64,7 +64,7 @@ JTSageDateBox.open = function () {
 
 	w._t( { method : "postrefresh" } );
 
-	// Perpare open callback, if provided. Additionally, if this
+	// Prepare open callback, if provided. Additionally, if this
 	// returns false then the open/update will stop.
 	o.openCallback = w._prepFunc( o.openCallback );
 
@@ -86,7 +86,7 @@ JTSageDateBox.open = function () {
 		};
 	}
 
-	// Perpare BEFORE open callback, if provided. Additionally, if this
+	// Prepare BEFORE open callback, if provided. Additionally, if this
 	// returns false then the open/update will stop.
 	o.beforeOpenCallback = w._prepFunc( o.beforeOpenCallback );
 

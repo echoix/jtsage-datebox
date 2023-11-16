@@ -302,7 +302,7 @@ JTSageDateBox._t = function ( obj ) {
  * Prep function, pull from global if needed
  * 
  * @param {mixed} Value of function option
- * @return {mixe} Function, or false
+ * @return {mixed} Function, or false
  * 
  */
 JTSageDateBox._prepFunc = function ( func ) {
@@ -316,7 +316,7 @@ JTSageDateBox._prepFunc = function ( func ) {
 
 /**
  * @typedef {Object} _pickRanges_Return
- * @property {array} month Arrays of [ value, label, slected (boolean) ]
+ * @property {array} month Arrays of [ value, label, selected (boolean) ]
  * @property {array} year Arrays of [ value, label, selected(boolean) ]
  */
 
@@ -326,7 +326,7 @@ JTSageDateBox._prepFunc = function ( func ) {
  * @param  {number} dispMonth Current month displayed
  * @param  {number} dispYear Current year displayed
  * @param  {number} realYear Today's year
- * @param  {boolean} relative Year is realtive to real current year, not selected year
+ * @param  {boolean} relative Year is relative to real current year, not selected year
  * @return {_pickRanges_Return}
  */
 JTSageDateBox._pickRanges = function ( dispMonth, dispYear, realYear, relative ) {
