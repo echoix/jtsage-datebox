@@ -94,7 +94,7 @@ mergeOpts({
 /* eslint-disable no-unused-vars */
 
 /*
- * Find the attacment point for the control
+ * Find the attachment point for the control
  * 
  * @param {boolean} isInline control is being inlined
  * @returns {object} jQuery attachment point

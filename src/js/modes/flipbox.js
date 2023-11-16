@@ -61,7 +61,7 @@ JTSageDateBox._fbox_do_dur_math = function ( term, offset, position ) {
 	}
 
 	if ( position === 0 ) {
-		// First position just counts up indfinatly, and can't go negative.
+		// First position just counts up indefinitely, and can't go negative.
 		return ( possibleReturn < 0 ) ? "&nbsp;" : possibleReturn;
 	} else {
 		if ( possibleReturn < 0 ) {
@@ -192,7 +192,7 @@ JTSageDateBox._build.flipbox         = function () {
 		});
 	}
 
-	// Get apprpriate header text
+	// Get appropriate header text
 	w.d.headerText = w._grabLabel (
 		( o.mode === "datebox" || o.mode === "datetimebox" ) ?
 			w.__( "titleDateDialogLabel" ) :

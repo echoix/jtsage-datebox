@@ -150,8 +150,8 @@ JTSageDateBox._build.slidebox = function () {
 			if ( w.theDate.get(2) > 28 ) {
 				w.theDate.setD( 2, 1 ); //Set first of month if over the 28th.
 			}
-			w.theDate.setD( 1, $( "#dbSlidePickMonth" ).val() ); // Set choosen month
-			w.theDate.setD( 0, $( "#dbSlidePickYear" ).val() ); // Set choosen year
+			w.theDate.setD( 1, $( "#dbSlidePickMonth" ).val() ); // Set chosen month
+			w.theDate.setD( 0, $( "#dbSlidePickYear" ).val() ); // Set chosen year
 
 			w.refresh();
 		});
