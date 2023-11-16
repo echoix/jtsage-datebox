@@ -181,7 +181,8 @@
 		for ( ; inputIndex < inputLength; inputIndex++ ) {
 			for ( key in input[ inputIndex ] ) {
 				value = input[ inputIndex ][ key ];
-				if ( input[ inputIndex ].hasOwnProperty( key ) && value !== undefined ) {
+				if ( Object.prototype.hasOwnProperty.call( input[ inputIndex ], key )
+				&& value !== undefined ) {
 
 					// Clone objects
 					if ( $.isPlainObject( value ) ) {
