@@ -18,7 +18,7 @@ var JTSageDateBox = {},
 
 	/* exported mergeOpts */
 	/**
-	 * Merge options together. Deliberatly shallow merge.
+	 * Merge options together. Deliberately shallow merge.
 	 *
 	 * @param {Object} newOpts
 	 */

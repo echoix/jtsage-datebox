@@ -438,7 +438,7 @@ JTSageDateBox.style_fboxRollCtr = function ( /* total */ ) {
  * Make a flipbox roller container (middle) - usually a UL
  *
  * @returns {object} jQuery Object
- */	
+ */
 JTSageDateBox.style_fboxRollPrt = function () {
 	
 };
