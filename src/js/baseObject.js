@@ -22,6 +22,7 @@ var JTSageDateBox = {},
 	 *
 	 * @param {Object} newOpts
 	 */
+	// eslint-disable-next-line no-unused-vars
 	mergeOpts = function (newOpts) {
 		for (var attrname in newOpts) {
 			JTSageDateBox.options[attrname] = newOpts[attrname];

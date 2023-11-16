@@ -1,3 +1,4 @@
+/* eslint-disable one-var */
 /**
  * JTSage-DateBox
  * @fileOverview Build the datebox files
